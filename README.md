@@ -1,5 +1,9 @@
 # Kanban
 
+Project following Devstackr's tutorial.
+Using the Drag and Drop (Angular Material) in Kanban Project.
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.12.
 
 ## Development server
