@@ -11,9 +11,9 @@
 }
 
 .has-gradient{
-    background: -webkit-linear-gradient(#13f7f4, #2af598);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(#13f7f4, #2af598); // permet de spécifier le dégradé de couleur linéaire à appliquer sur l'arrière-plan d'un élément
+    -webkit-background-clip: text; // valeur de limite, la zone d'arrière-plan s'étend dans le texte.
+    -webkit-text-fill-color: transparent; // équivalent de color
 }
 
 .board{
@@ -93,6 +93,9 @@
     0 3px 14px 2px rgba(0,0,0,0.05);
 }
 
+// #######  ANIMATIONS  #######
+// https://material.angular.io/cdk/drag-drop/overview 
+// Drag&Drop connected sorting group
 .cdk-drag-preview {
     box-sizing: border-box;
     border-radius: 4px;
